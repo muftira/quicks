@@ -1,14 +1,99 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "sectionTasks": [
+    {
+      "id": 1,
+    "name": "Personal Errands"
+  },
+    {
+      "id": 2,
+    "name": "Urgent To-Do"
+  }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  
+  "listTasks": [
+    {
+      "sectionTasksId": 1,
+      "id": 1,
+      "checked": false,
+      "title": "Close off Case #012920- RODRIGUES, Amiguel",
+      "remainingDays": "2 Days Left",
+      "date": "12/06/2021",
+      "description": "Closing off this case since this application has been cancelled. No one really understand how this case could possibly be cancelled. The options and the documents within this document were totally a guaranteed for a success!"
+
+    },
+    {
+      "sectionTasksId": 1,
+      "id": 2,
+      "checked": false,
+      "title": "Set up documentation report for several Cases : Case 145443, Case 192829 and Case 182203",
+      "remainingDays": "4 Days Left",
+      "date": "14/06/2021",
+      "description": "All Cases must include all payment transactions, all documents and forms filled. All conversations in comments and messages in channels and emails should be provided as well in."
+
+    },
+    {
+      "sectionTasksId": 1,
+      "id": 3,
+      "checked": false,
+      "title": "Set up appointment with Dr Blake",
+      "remainingDays": "10 Days Left",
+      "date": "22/06/2021",
+      "description": "All Cases must include all payment transactions, all documents and forms filled. All conversations in comments and messages in channels and emails should be provided as well in."
+
+    },
+    {
+      "sectionTasksId": 1,
+      "id": 4,
+      "checked": true,
+      "title": "Contact Mr Caleb - video conference?",
+      "remainingDays": "",
+      "date": "3/06/2021",
+      "description": ""
+
+    },
+    {
+      "sectionTasksId": 1,
+      "id": 5,
+      "checked": true,
+      "title": "Assign 3 homework to Client A",
+      "remainingDays": "",
+      "date": "2/06/2021",
+      "description": ""
+
+    },
+    {
+      "sectionTasksId": 2,
+      "id": 1,
+      "checked": false,
+      "title": "Cross-reference with Jeanne for Case #192813",
+      "remainingDays": "2 Days Left",
+      "date": "12/06/2021",
+      "description": ""
+
+    },
+    {
+      "sectionTasksId": 2,
+      "id": 2,
+      "checked": true,
+      "title": "Contact Andrew for Online Meeting and Conference",
+      "remainingDays": "",
+      "date": "3/06/2021",
+      "description": ""
+
+    },
+    {
+      "sectionTasksId": 2,
+      "id": 3,
+      "checked": true,
+      "title": "Check and Revise Homework from Andre Gonzales",
+      "remainingDays": "",
+      "date": "11/06/2021",
+      "description": "Homeworks needed to be checked are as follows : Client Profile Questionnaire, Passport Requirements and Images, Personal Documents."
+
+    }
   ],
+  
   "profile": {
-    "name": "typicode"
+    "name": "Quicks"
   }
 }
